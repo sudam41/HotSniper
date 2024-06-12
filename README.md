@@ -116,6 +116,7 @@ To do your own (automated) evaluations, see the `simulationcontrol.resultlib` pa
   - check `scripts/energystats.py`: `build_dvfs_table` (keep in mind that V/f-levels are specified at 22nm)
 - [ ] select high-level architecture
   - `simulationcontrol/config.py`: `SNIPER_CONFIG` and `NUMBER_CORES`
+  - example: to setup 64 core NUCA architecture use `NUMBER_CORES = 64` and `SNIPER_CONFIG = 'kingscross-nuca'`
 - [ ] set architectural parameters
   - `config/base.cfg` and other config files as specified in the previous step
 - [ ] set scheduling and DVFS parameters
